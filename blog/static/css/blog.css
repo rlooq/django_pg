@@ -1,0 +1,40 @@
+
+
+
+html body {
+  font-family: 'PT Serif', serif;
+  color: #91B4D4;
+  background: #232937;
+  }
+
+
+.blog-name {
+  font-weight: bolder;
+  font-size: 2em;
+  color: #27E8A7;
+  }
+
+.blog-name:hover {
+  color: #6FFCCD;
+  text-decoration: none;
+  }
+  
+.post-title {
+  color: #C74577;
+  font-weight: bold;
+  line-height: 1.5em;
+  font-size: 1em;
+  }
+  
+.post-title:hover {
+  color: #ED337A;
+  text-decoration: none;
+  }
+  
+.navbar {
+  background: #232937;
+  }
+  
+p {
+  font-size: 1.2em;
+}

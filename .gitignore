@@ -13,9 +13,6 @@ venv/
 # Database
 db.sqlite3
 
-# Static folder
-static/
-
 # Windows
 Thumbs.db*
 ehthumbs*.db
