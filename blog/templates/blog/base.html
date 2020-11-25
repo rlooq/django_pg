@@ -1,0 +1,84 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Random Looq</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+	
+	<!-- Fonts -->
+	<link href="{% static 'webfonts/ptserif/main.css' %}" rel='stylesheet' type='text/css'>
+    <link href="{% static 'webfonts/source-code-pro/main.css' %}" rel="stylesheet" type="text/css">
+
+	
+	<!-- My css -->
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	<link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+
+    
+
+</head>
+
+
+
+<body>
+
+	<!--    Navbar Space    -->
+<nav class="navbar navbar-expand-md sticky-top navbar-dark border-bottom border-dark">
+ <div class="container">
+  <a class="blog-name" href="#">Random Looq</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+   <ul class="navbar-nav mr-auto mx-3">
+
+<!--      <li class="nav-item active">
+        <a class="nav-link font-weight-bold" href="#">Home</a>
+      </li>
+-->
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Twitter</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Github</a>
+      </li>
+   </ul>
+
+  </div>
+</div>
+</nav>
+
+
+<div class="container">
+
+    		{% block content %}
+			{% endblock %}
+	
+<br><br>
+
+<footer class="text-center text-muted">
+&copy; Random Looq 2020. Made with love and Django.
+<br><br>
+</footer>
+</div>
+
+<!-- jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+</body>
+
+</html>
+
+
