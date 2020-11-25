@@ -10,7 +10,7 @@ html body {
 
 .blog-name {
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #27E8A7;
   }
 
@@ -22,13 +22,14 @@ html body {
 .post-title {
   color: #C74577;
   font-weight: bold;
-  line-height: 1.5em;
   font-size: 1em;
   }
   
-.post-title:hover {
+a.post-title:hover {
   color: #ED337A;
   text-decoration: none;
+  border-bottom-style: dotted;
+  border-width: 0.5px;
   }
   
 .navbar {

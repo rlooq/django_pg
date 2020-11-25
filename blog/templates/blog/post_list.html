@@ -6,10 +6,10 @@
 {% block content %}
 
             {% for post in posts %}
-                <div class="pt-3 border-bottom border-dark">
+                <div class="pt-5">
                     <h2><a href="{% url 'post_detail' pk=post.pk %}" class="post-title">{{ post.title }}</a></h2>
-                    <p class="text-muted text-right">{{ post.published_date }}</p>
                     <p>{{ post.text|linebreaksbr }}</p>
+                    <p class="text-muted text-right">{{ post.published_date }}</p>
                 </div>
                 <br>
             {% endfor %}
